@@ -7,11 +7,20 @@ module.exports = api => {
     devDependencies: {
       '@mdi/js': '*',
       'axios': '*',
+      'eslint-config-vuetify': '*',
       'webfontloader': '*',
       'vue-analytics': '*',
       'vue-meta': '*',
       'vuex-pathify': '*',
       'vuex-router-sync': '*'
+    },
+    eslintConfig: {
+      plugins: ['vuetify'],
+      rules: {
+        'vuetify/no-deprecated-classes': 'error',
+        'vuetify/grid-unknown-attributes': 'error',
+        'vuetify/no-legacy-grid': 'error',
+      }
     },
     jest: {
       setupFiles: [
