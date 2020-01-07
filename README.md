@@ -1,8 +1,8 @@
 # vue-cli-plugin-vuetify-essentials
 > A Vue CLI 3 Plugin used by vue-cli-preset-vuetify.
 
-### 💿 Install
-This should not be installed stand-a-lone.
+### ⚠ Archived
+This package has been moved to the main [vue-cli-plugins](https://github.com/vuetifyjs/vue-cli-plugins/) repository.
 
 ### 💪 Supporting Vuetify
 <p>Vuetify is an open source MIT project that has been made possible due to the generous contributions by <a href="https://github.com/vuetifyjs/vuetify/blob/dev/BACKERS.md">community backers</a>. If you are interested in supporting this project, please consider:</p>
